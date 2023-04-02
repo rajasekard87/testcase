@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#20b2aa",
+        "fontSize": 30,
+        "fontWeight": "bold",
+        "marginBottom": 40,
+        "marginTop": -20,
+      }
+    }
+  >
+     Welcome Back
+  </Text>
+  <View
+    style={
+      {
+        "backgroundColor": "lightgrey",
+        "borderRadius": 25,
+        "height": 50,
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "padding": 20,
+        "width": "80%",
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter Username"
+      placeholderTextColor="#003f5c"
+      style={
+        {
+          "color": "black",
+          "height": 50,
+        }
+      }
+      testID="username"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "lightgrey",
+        "borderRadius": 25,
+        "height": 50,
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "padding": 20,
+        "width": "80%",
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter Password"
+      placeholderTextColor="#003f5c"
+      secureTextEntry={true}
+      style={
+        {
+          "color": "black",
+          "height": 50,
+        }
+      }
+      testID="password"
+      value=""
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#20b2aa",
+        "borderRadius": 25,
+        "height": 50,
+        "justifyContent": "center",
+        "marginBottom": 10,
+        "marginTop": 20,
+        "opacity": 1,
+        "width": "80%",
+      }
+    }
+    testID="btnSubmit"
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 18,
+        }
+      }
+    >
+      LOGIN
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#20b2aa",
+          "fontSize": 13,
+          "fontWeight": "bold",
+          "margin": 10,
+        }
+      }
+    >
+      New Here ? Register
+    </Text>
+  </View>
+</View>
+`;
